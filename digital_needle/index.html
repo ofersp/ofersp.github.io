@@ -1,0 +1,160 @@
+<HTML>
+
+<TITLE> Digital Needle - A Virtual Gramophone </TITLE> 
+<BODY> <BR><BR> 
+
+<FONT SIZE=5 FACE=verdana,arial>
+<B><CENTER> Digital Needle - A Virtual Gramophone </CENTER></B> <BR><BR></FONT>
+
+<FONT SIZE=2 FACE=verdana,arial>
+
+Remember those flat round things you may have found lying around the
+house. Those that never 
+really worked well as flying saucers? Well, the other day I happenned to have a good 
+look at one through a magnifying glass. I was able to discern something waveform'esqe
+in the 
+shape of the groove. I thought, "groovy, there must be a way to extract something 
+sensible off of that" (actual thought quoted). At which point I came up with some 
+great excuses ^H^H^H reasons to have a go: <BR><BR>
+
+A) These round objects could have some archeological value. <BR>
+B) I could waste some time. <BR><BR>
+
+Happily convinced by these, I tried to recall an old legend I once heard
+concerning these objects. This legend being of technological nature, 
+entaled a diamond needle that would vibrate when placed atop the 
+revolving flat things, these vibrations, when amplified would produce music. <BR><BR>
+
+<HR>
+
+When scanned, some records seemed much denser than others. 
+Dense tracks were much harder to follow. <BR><BR>
+
+<CENTER><IMG SRC="images/chesus1.jpg"></CENTER> <BR>
+
+Vivaldi's "The Four Seasons" was fine <BR><BR>
+<CENTER><IMG SRC="images/seasons1.jpg"></CENTER> <BR><BR>
+
+<HR>
+
+When illuminated in parallel with the groove's direction 
+some sort of depth-modulation became visible. <BR><BR>
+
+<CENTER><IMG SRC="images/depthModulation.jpg"></CENTER> <BR><BR>
+
+This made me guess that one of the stereo channels might be encoded
+in the depth/angle plane while the other was encoded in the radius/angle plane, 
+the later being the one I initially noticed. <BR><BR>
+
+<CENTER><IMG SRC="images/planes.jpg"></CENTER> <BR><BR>
+
+<HR>
+
+The nature of my scanner and of the records reflectiveness 
+caused only the lower half of the record's radius/angle modulation 
+to be exposed on each scan. <BR><BR>
+
+<CENTER><IMG SRC="images/reflection.jpg"></CENTER> <BR><BR>
+
+Thus, to supply the virtual gramophone at least one complete revolution of the record,
+four regions had to be separately scanned. These were later stitched together to 
+form an image of several complete inner tracks of the record. <BR><BR>
+
+<CENTER><IMG SRC="images/regions.jpg"></CENTER> <BR>
+
+<HR><BR>
+
+Once the image was ready, writing the decoder was very simple.
+All it did was rotate a "needle" around a given center at some predefined angular
+velocity, attempting to keep track of the groove the needle was initially positioned
+on.
+The offsets (dr) between this track and the basic radial were bunched into a sequence
+of
+samples.
+these were later converted into wav files.<BR><BR>
+
+<CENTER><IMG SRC="images/decoder.jpg"></CENTER> <BR><BR>
+
+<HR><BR>
+
+Here are the few nearly-intelligible decodings that I managed to recover off of
+the inner tracks of Vivaldi's "The Four Seasons". <BR><BR>
+
+Listening to the following reference recording might allow you to recognize
+these as the music-within-noise they actually are!!! (I guess a highly imaginative
+listener is
+required too).<BR>
+
+<BR>Reference recording - <A HREF="sounds/gramophone3.mp3"> 
+gramophone3.mp3</A> <BR>
+
+<BR> Samples decoded from the scan - <BR>
+
+<BR><A HREF="sounds/a1.mp3"> a1.mp3</A>
+<BR><A HREF="sounds/a2.mp3"> a2.mp3</A>
+<BR><A HREF="sounds/a3.mp3"> a3.mp3</A>
+<BR><A HREF="sounds/a4.mp3"> a4.mp3</A> <BR>
+
+<BR><A HREF="sounds/b1.mp3"> b1.mp3</A>
+<BR><A HREF="sounds/b2.mp3"> b2.mp3</A>
+<BR><A HREF="sounds/b3.mp3"> b3.mp3</A>
+<BR><A HREF="sounds/b4.mp3"> b4.mp3</A>
+<BR><A HREF="sounds/b5.mp3"> b5.mp3</A> <BR>
+
+<BR><A HREF="sounds/c1.mp3"> c1.mp3</A>
+<BR><A HREF="sounds/c2.mp3"> c2.mp3</A> <BR>
+
+<BR>
+
+Ofer Springer 5/9/2002.
+
+<BR><BR><HR><BR>
+
+7/9/2002 - Woke up, fell out of bed... rampaged by a slashdot horde.
+Some clarifications to the slashdot crowd: <BR><BR>
+
+The whole thing was done in a couple of late nights so I didn't really
+have much time to gather all the technical details concerning phonograph
+modulations. Moreover, the "archeological" reverse-engineering aspect was part
+of the fun.
+
+I now know (thanks to some great replies) that the horizontal modulation (the only
+one I did decode) is a combination of the left/right audio channels (which are each
+encoded on the sides of a V-shaped groove). <BR><BR>
+
+Some repliers seemed to be a tad confused as to what recordings were
+the actual decodings. I'd like to stress that gramophone3.mp3 is a recording
+while the rest (dneedle*) were decoded from the image.<BR>
+
+<BR>
+
+Have fun. <BR>
+
+<BR><HR><BR>
+</FONT>
+
+<CENTER>
+
+<!-- StatCounter.com Code -->
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+usr="zbbrox";
+</SCRIPT>
+<SCRIPT
+TYPE="text/javascript" LANGUAGE="javascript"
+src="http://www.statcounter.com/counter/counter.js"></SCRIPT>
+<NOSCRIPT><A HREF="http://www.statcounter.com" TARGET="_top"><IMG
+SRC="http://www.statcounter.com/counter/counter.pl?usr=zbbrox&java=disabled"
+ALT="StatCounter.com" BORDER=0></A></NOSCRIPT>
+<!-- End of StatCounter.com Code -->
+
+</CENTER>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-396636-1";
+urchinTracker();
+</script>
+
+</BODY>
+</HTML>
